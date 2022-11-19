@@ -13,5 +13,8 @@ export const ButtonContainer = styled.button`
     &:hover {
         opacity: 0.6;
         cursor:pointer;
+    },
+    button.disabled{
+        opacity: .5:
     }
 `
